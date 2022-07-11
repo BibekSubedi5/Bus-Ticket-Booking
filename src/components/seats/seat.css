@@ -1,0 +1,103 @@
+.seat{
+   display: flex;
+    justify-content: center;
+
+    
+    
+   
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1024px;
+    gap: 20px;
+    margin-top: 20px;
+
+    
+
+}
+.aFlex{
+    flex: 2;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 4px solid yellow;
+    background-color: yellow;
+    height: max-content;
+    position: sticky;
+    top: 20px;
+   
+}
+.bFlex{
+    flex: 2;
+  
+}
+ .seats{
+    
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+  
+} 
+
+ 
+.selected{
+display: flex;
+justify-content: space-around;
+margin-bottom: 30px;
+align-items: center;
+font-size: medium;
+
+}
+
+
+
+.seats{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.aSeat{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    
+}
+.cSeat{
+    display: flex;
+    flex-direction: row;
+    gap : 20px;
+}  
+.bSeat{
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+
+}
+.Book{
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 4px solid yellow;
+    display: flex;
+    align-items: center;
+    
+
+}
+.aBook{
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+.Book>button{
+height: 100%;
+background-color: gray;
+}

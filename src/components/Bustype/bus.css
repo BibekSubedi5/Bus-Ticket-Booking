@@ -1,0 +1,51 @@
+.toExplore{
+    display: flex;
+width: 100%;
+gap: 50px;
+
+
+
+}
+.aboutExplore{
+    width: 100%;
+    
+    display: flex;
+    gap :20px;
+    
+ 
+    
+
+}
+
+    
+
+.bExplore{
+    gap: 0px;
+    display :flex;
+    flex-direction: column; 
+}
+
+.dExplore{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    
+}
+
+
+
+
+.explorePlace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+
+    column-gap: 50px;
+}
+
+.dList{
+    font-size: 30px;
+    row-gap: 20px;
+}
+

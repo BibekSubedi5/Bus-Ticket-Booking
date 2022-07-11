@@ -1,0 +1,61 @@
+.tourPackage{
+    
+
+    
+    justify-content: center;
+}
+.tourPlace{
+    width: 100%;
+    flex-direction: column;
+    max-width: 1024px;
+  margin-left: 15%;
+ 
+    justify-content: space-between;
+}
+
+
+.tourSource{
+    display: flex;
+    
+    flex-direction: row;
+    flex: 1;
+    gap :10px;
+  
+
+}
+.tourDest1{
+    flex: 1;
+    height: 500px;
+
+}
+.tourDest2{
+    flex: 1;
+
+}.tourDest3{
+    flex: 1;
+
+}
+.aTour{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    
+    
+    border: 1px solid black;
+
+
+
+}
+.aTour>span,h1,h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 100;
+    
+}
+.pic{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    
+    
+}

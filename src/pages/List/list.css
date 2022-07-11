@@ -1,0 +1,68 @@
+.ListContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.ListWrapper{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    gap: 20px;
+  
+
+}
+
+.ListSearch{
+    background-color: #febb02;
+    flex: 1;
+    position: sticky;
+    padding: 10px;
+    border-radius: 10px;
+    top: 10px;
+    height: max-content;
+}
+
+.ListResult{
+    flex: 3;
+ 
+}
+.LstTitle{
+   color: gray;
+}
+
+.LstItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.LstItem>label{
+    font-size: 20px;
+}
+
+.LstItem>input{
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.LstItem>span{
+    height: 30px;
+    background-color: white;
+    display: flex;
+    padding: 5;
+    align-items: center;
+    cursor: pointer;
+}
+.ListSearch>button{
+    background-color: blue;
+    padding: 10px;
+    margin-right: 50%;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+}
