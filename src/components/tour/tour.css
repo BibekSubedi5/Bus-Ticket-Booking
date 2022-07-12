@@ -1,9 +1,10 @@
-.tourPackage{
+/* .tourPackage{
     
 
-    
+  display: flex;  
+  flex-direction: column;
     justify-content: center;
-}
+} */
 .tourPlace{
     width: 100%;
     flex-direction: column;
@@ -59,3 +60,78 @@
     
     
 }
+
+
+.newsUpdate{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 50px;
+}
+    
+.newsFlex{
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+}
+
+     .newsTitle{
+        flex: 1;
+        display: flex;
+     
+        flex-direction: column;
+     
+   
+        
+    }
+    .newsTitle>h1{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    .newSpace{
+        
+         justify-content: space-between; 
+      
+        font-size: medium;
+     
+        
+    }
+    .newSpace>h1{
+        font-size: large;
+        font-weight: 400;
+    }
+.newSpace>button{
+    height: 50px;
+    width: 250px;
+ 
+    padding: 10px;
+    margin-top: 50px;
+  border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    background-color: white;
+
+
+   
+}
+    .newsPics{
+        display: flex;
+        flex: 1;
+        
+        flex-direction: column;
+    }
+
+    .picFlex{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        
+
+    }
+    .picsFlex{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }

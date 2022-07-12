@@ -11,7 +11,7 @@ const Find = ({type}) => {
         { type !=="items" && 
         <div className="find">
           <span>What's up</span>
-          <spn>😛</spn>
+          <span>😛</span>
         </div>
       
   }

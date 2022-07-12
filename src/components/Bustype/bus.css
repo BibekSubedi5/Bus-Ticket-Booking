@@ -16,7 +16,10 @@ gap: 50px;
     
 
 }
-
+.cExplore{
+    list-style: none;
+    row: gap 20px; ;
+}
     
 
 .bExplore{

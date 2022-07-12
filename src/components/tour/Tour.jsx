@@ -57,7 +57,41 @@ const Tour = () => {
                     </div>
             </div>
         </div>
-        <div>hi</div>
+        <div className='newsUpdate'>
+            <div className='newsFlex'>
+            <div className='newsTitle'>
+                <h1>News And Updates</h1>
+                < div className='newSpace'>
+              
+
+
+                    <h1>  
+                      <li> Tour to India</li> </h1>
+                    <h1>  <li> Jagdamba A/C Deluxe </li> </h1>
+                     <h1>  <li>  Chitwan Safari Travel</li></h1>
+                    <h1>     <li>  The Last Resort Bungy Nepal</li></h1>
+                    <h1> 
+                       <li> Buy directly from E-Sewa Zone at over 200 locations. </li></h1>
+                   
+                
+               
+                 <button >Browse all news And updates</button>
+
+                </div>
+            </div>
+            <div className='newsPics'>
+                <div className='picFlex'>
+                    <img src="https://bussewa.com/faces/designCollection/new-design/images/seats.jpg" alt="" className="pic" />
+                <img src="https://bussewa.com/faces/designCollection/new-design/images/07-chitwan-national-park-elephant-bathing%20%201-736.jpg" alt="" className="pic" />
+                </div>
+                <div className='picsFlex'>
+                    <img src="https://bussewa.com/faces/designCollection/new-design/images/taj.jpg" alt="" className="pic" />
+                <img src="https://bussewa.com/faces/designCollection/new-design/images/phewa-lake-pokhara.jpg" alt="" className="pic" />
+                </div>
+            </div>
+            </div>
+
+        </div>
     </div>
   )
 }
