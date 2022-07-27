@@ -18,8 +18,9 @@ const List =()=> {
     const [date,setDate]=useState(location.state.date)
     const [source,setSource]=useState(location.state.source)
     const [destination,setDestination]=useState(location.state.destination)
-
-    const { data , loading ,error , refetch}=useFetch('/bus?city=${source}')
+     
+    const { data , loading ,error , refetch}=useFetch(`/bus?city=${source}&toCity=${destination}`)
+    
 
 
     
@@ -50,12 +51,12 @@ const List =()=> {
                     <button >Search</button>
                 </div>
                 <div className='ListResult'>
-                {loading ? "loading" :<>
+                 {loading ? "loading" :<>
                 {data.map(item=>(
                     <SearchItem item={item} key={item._id} />
                 ))}
                 
-                </>}
+                </>} 
 
                 </div>
                 
