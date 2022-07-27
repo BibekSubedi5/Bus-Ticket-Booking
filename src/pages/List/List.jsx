@@ -9,6 +9,7 @@ import './list.css'
 import { format } from 'date-fns';
 import { DateRange } from 'react-date-range';
 import SearchItem from '../../components/searchitem/SearchItem';
+import useFetch from '../../Hook/fetch';
 
 
 const List =()=> {
@@ -18,7 +19,8 @@ const List =()=> {
     const [date,setDate]=useState(location.state.date)
     const [source,setSource]=useState(location.state.source)
     const [destination,setDestination]=useState(location.state.destination)
-
+  
+    const { data , loading , error, refetch} =useFetch('localhost:8800/api/bus?city=${source}')
 
 
     console.log(location)
@@ -49,13 +51,10 @@ const List =()=> {
                     <button >Search</button>
                 </div>
                 <div className='ListResult'>
-                <SearchItem/>
-                <SearchItem/>
-                <SearchItem/>
-                <SearchItem/>
-                <SearchItem/>
-                <SearchItem/>
-                <SearchItem/>
+             { loading ? "loading" :<>
+             {data.map(item=>(
+             <SearchItem item={item} key={item._id} />))}
+             </>}
 
                 </div>
                 

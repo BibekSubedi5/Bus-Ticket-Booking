@@ -17,7 +17,7 @@ const Home =()=> {
       < Navbar />
 
    <Header />
-   <Find   />
+      
    <div className="homecontainer">
    <Featured />
    <Bus /> 

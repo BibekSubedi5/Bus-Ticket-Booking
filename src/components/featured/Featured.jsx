@@ -56,7 +56,7 @@ const Featured = () => {
       
 
       
-      <div>
+      <div >
         <SimpleImageSlider
           width={1200}
           height= {700}

@@ -4,7 +4,8 @@ const Tour = () => {
   return (
     
     <div className='tourPackage'>
-    
+    <div className='tourUpdate'>
+
         <div className='tourPlace'>
         <h1>Tours Package Available</h1>
              <div className='tourSource'>
@@ -57,6 +58,8 @@ const Tour = () => {
                     </div>
             </div>
         </div>
+    </div>
+
         <div className='newsUpdate'>
             <div className='newsFlex'>
             <div className='newsTitle'>
@@ -90,6 +93,86 @@ const Tour = () => {
                 </div>
             </div>
             </div>
+
+        </div>
+
+        <div className='tourUpdate'>
+            
+                
+
+        <div className='tourPlace'>
+        <h1>Our Bus Feature</h1>
+             <div className='tourSource'>
+                <div className='tourDest1'>
+                    <div className='aTour'>
+                 <img src="https://bussewa.com/customer/bussewaUpload/MaitriBhagya_1575874717129_1582133390023.jpg" alt="" 
+                 className="pic" />
+                 <h1>MaitriBhagya Yatayat  </h1>
+                 <h2>Pokhara Travels</h2>
+               <span>
+                <li>Wifi </li>
+                <li> A/c and Fan system</li>
+                <li> Music System </li>
+                <li> Comfortable Seats</li>
+                <li> First Aid Kits</li>
+                <li>Mobile Charger </li>
+                <li>Mineral Water </li>
+                <li>Friendly Staff </li>
+                <li>On Time deaparture </li>
+
+
+                
+
+               </span>
+                    </div>
+                </div>
+                <div className='tourDest2'>
+
+                <div className='aTour'>
+                 <img src="https://bussewa.com/customer/bussewaUpload/namaste_kapilvastu_1575875010943_1582133227319.jpg" alt="" 
+                 className="pic" />
+                 <h1>Pokhara Travels  </h1>
+                 <h2>Tourist Bus</h2>
+               <span>
+                <li>Wifi </li>
+                <li> A/c and Fan system</li>
+                <li> Music System </li>
+                <li> LED TV</li>
+                <li> COmfortable Seat</li>
+                <li>Coffee </li>
+                <li>Cold Drink </li>
+                
+                
+
+                
+
+               </span>
+                    </div>
+                    </div>   <div className='tourDest3'>
+                    <div className='aTour'>
+                 <img src="https://bussewa.com/customer/bussewaUpload/facebook_bus_1575875292105.jpg" alt="" 
+                 className="pic" />
+               <h1>Facebook Delux  </h1>
+                 <h2>Normal Bus</h2>
+               <span>
+                <li>Wifi </li>
+                <li> LED TV</li>
+                <li> Comfortable Seats </li>
+                <li> Air Cooler</li>
+                <li> Passenger Insurance</li>
+                <li>Mobile Charger </li>
+                <li>Mineral Water </li>
+                
+
+
+                
+
+               </span>
+                    </div>
+                    </div>
+            </div>
+        </div>
+            
 
         </div>
     </div>
