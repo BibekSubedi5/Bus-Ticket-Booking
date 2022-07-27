@@ -2,7 +2,7 @@ import "./searchItem.css";
 import { useNavigate } from "react-router-dom"
 
 
-const SearchItem = () => {
+const SearchItem = (item) => {
 
   const navigate =useNavigate()
 
@@ -19,9 +19,9 @@ const SearchItem = () => {
         className="siImg"
       />
       <div className="siDesc">
-        <h1 className="siTitle">Holiday Adventures</h1>
-        <span className="siSheets">Total sheets:35</span>
-        <span className="siTaxiOp">Available:22</span>
+        <h1 className="siTitle">{item.name}</h1>
+        <span className="siSheets">{item.seat}</span>
+        <span className="siTaxiOp">{item.booked}</span>
     
         <span className="siFeatures">
          Ac Delux with full comfort
@@ -37,7 +37,8 @@ const SearchItem = () => {
           <button>8.9</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">NRP 1200</span>
+          <span className="siPrice">{item.price}</span>
+          <span className="siPrice">{item.time}</span>
           <span className="siTaxOp">Includes taxes </span>
           <button className="siCheckButton" onClick={handleSearch}>Book Now</button>
         </div>
