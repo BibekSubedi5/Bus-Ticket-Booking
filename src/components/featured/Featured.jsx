@@ -76,7 +76,7 @@ const Featured = () => {
             <h1>Search</h1>
       <div className='featuredItem'>
         <label>Leaving From</label>
-       <input placeholder='source'
+       <input placeholder='Source'
        onChange={e=>setSource(e.target.value)}/>
         </div>
         <div className='featuredItem'>

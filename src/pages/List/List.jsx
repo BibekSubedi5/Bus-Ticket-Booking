@@ -19,9 +19,11 @@ const List =()=> {
     const [source,setSource]=useState(location.state.source)
     const [destination,setDestination]=useState(location.state.destination)
      
-    const { data , loading ,error , refetch}=useFetch(`/bus?city=${source}&toCity=${destination}`)
+    const { data , loading ,error , reFetch}=useFetch(`/bus?city=${source}&toCity=${destination}`)
     
-
+const handleClick =()=>{
+    reFetch()
+}
 
     
     return(
@@ -48,7 +50,7 @@ const List =()=> {
                 minDate={new Date()}
                 ranges={date}/>}
                     </div>
-                    <button >Search</button>
+                    <button onClick={handleClick} >Search</button>
                 </div>
                 <div className='ListResult'>
                  {loading ? "loading" :<>

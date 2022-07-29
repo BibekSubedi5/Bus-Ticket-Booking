@@ -1,15 +1,15 @@
 import "./searchItem.css";
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 
 const SearchItem = ({item}) => {
 
-  const navigate =useNavigate()
+  // const navigate =useNavigate()
 
-  const handleSearch= () =>{
-    navigate ("/available ") 
+  // const handleSearch= () =>{
+  //   navigate ("/available ") 
 
-  }
+  // }
   
   return (
     <div className="searchItem">
@@ -40,7 +40,10 @@ const SearchItem = ({item}) => {
           <span className="siPrice">{item.price}</span>
           <span className="siPrice">{item.time}</span>
           <span className="siTaxOp">Includes taxes </span>
-          <button className="siCheckButton" onClick={handleSearch}>Book Now</button>
+        <Link to={`/bus/${item._id}`}>
+          <button className="siCheckButton" >Book Now</button>
+          </Link>
+
         </div>
       </div>
     </div>

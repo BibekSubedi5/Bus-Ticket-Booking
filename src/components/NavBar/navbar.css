@@ -12,6 +12,11 @@
     align-items: center;
     justify-content: space-between;
  }
+ .navItems{
+display: flex;
+gap: 60px;
+
+ };
  .logo{
     font-weight: 500;
     font-size: large;
@@ -26,4 +31,9 @@
     background-color:rgb(76, 76, 219) ; 
      border: none; 
     padding: 6px 10px;
+ }
+ .logout>button{
+   color: black;
+   background-color: rgb(76, 76, 219);
+   border: none;
  }
