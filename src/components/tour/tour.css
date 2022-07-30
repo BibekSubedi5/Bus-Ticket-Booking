@@ -140,14 +140,14 @@
     .picFlex{
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 0px;
         
 
     }
     .picsFlex{
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 0px;
     }
 
     .busType{

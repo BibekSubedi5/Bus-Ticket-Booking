@@ -1,0 +1,12 @@
+.aNot{
+    /* background-color: yellow; */
+    justify-content: center;
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+
+.aNot>h1{
+    font-size: 150px;
+
+}

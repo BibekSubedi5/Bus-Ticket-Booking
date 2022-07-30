@@ -20,7 +20,7 @@ const SearchItem = ({item}) => {
       />
       <div className="siDesc">
         <h1 className="siTitle">{item.name}</h1>
-        <span className="siSheets">Total Sheets: {item.seat}</span>
+        <span className="siSheets">Total Sheets: {item.type}</span>
         <span className="siTaxiOp">Available :{item.booked}</span>
     
         <span className="siFeatures">

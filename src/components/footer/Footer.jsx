@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './footer.css'
 
 
@@ -6,7 +7,7 @@ const Footer = () => {
 
   return (
 
-
+<Link  to="notfound" style={{color:"inherit", textDecoration:"none"}}>
     <div className='footer'>
         <div className="fLists">
             <ul className='fList'>
@@ -40,6 +41,8 @@ const Footer = () => {
          </div>
          <div className='fText'> copyright Ⓒ 2022 all right reserved</div>
     </div>
+</Link>
+ 
   )
 }
 

@@ -1,12 +1,12 @@
  .navbar{
     height: 60px;
-    background-color: rgb(76, 76, 219);
+    background-color: rgb(116, 116, 251);
     display: flex;
     justify-content: center;
  }
  .navContainer{
     width: 100%;
-    color: white;
+    color: black;
     max-width: 1200px;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ gap: 60px;
     font-size: medium;
     
     color: black;
-    background-color:rgb(76, 76, 219) ; 
+    background-color:rgb(116, 116, 251) ; 
      border: none; 
     padding: 6px 10px;
  }

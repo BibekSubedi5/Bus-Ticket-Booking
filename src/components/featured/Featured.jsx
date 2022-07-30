@@ -1,24 +1,27 @@
 import './featured.css'
 import { useState } from 'react';
-
+import SelectSearch from 'react-select-search';
 import { format } from 'date-fns';
 import { DateRange } from 'react-date-range';
-
 import { useNavigate } from "react-router-dom"
-
-
 import SimpleImageSlider from "react-simple-image-slider";
 
 const images=[
   
-  {url: "https://qph.cf2.quoracdn.net/main-qimg-9a4e9d6289c083c708a30be1e7435c84-lq"},
+  {url: "https://www.sustainable-bus.com/wp-content/uploads/2019/12/scania-bus4.jpg"},
  
-  {url:"https://www.oyorooms.com/blog/wp-content/uploads/2018/08/TILICHO-LAKE-min.jpg"},
+  {url:"https://www.himalayantrekkingpath.com/uploads/2020/01/mountainoverland.jpg"},
   {url :"https://www.intrepidtravel.com/adventures/wp-content/uploads/2018/10/17.-Intrepid-Travel-nepal_kathmandu_stupa-bodnat-flowers-flag.jpg"},
 ];
 
 const Featured = () => {
 
+
+//   const options = [
+//     {name: 'pokhara', value: 'sv'},
+//     {name: 'kathmandu', value: 'en'},
+  
+// ];
  const [openDate,setOpenDate]=useState(false)
   const [source,setSource]=useState("")
   const [destination,setDestination]=useState("")
@@ -76,12 +79,17 @@ const Featured = () => {
             <h1>Search</h1>
       <div className='featuredItem'>
         <label>Leaving From</label>
-       <input placeholder='Source'
+        
+
+       <input  placeholder='Source'
        onChange={e=>setSource(e.target.value)}/>
+        
+
         </div>
         <div className='featuredItem'>
           <label>Going Destination</label>
-          <input placeholder='Destination'
+          <input className="dest"  name="Destination" placeholder='Destination'
+          
            onChange={e=>setDestination(e.target.value)}/>
         </div>
         <div className='featuredItem'>

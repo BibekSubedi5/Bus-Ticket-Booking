@@ -1,0 +1,29 @@
+.aDone{
+    width: 100%;
+   display: flex;
+  
+  justify-content: center;
+  
+    
+}
+.bDone{
+    width: 100%;
+    max-width: 1024px;
+ 
+    
+}
+.bDone>h1{
+    margin-left:20% ;
+    font-size:xx-large ;
+    font-weight: bold;
+}
+.bDone>h2{
+    margin-left: 28%;
+    font-size: x-large;
+    font-weight: 500;
+}
+.bDone>h3{
+    margin-left: 40%;
+    font-size: large;
+    font-weight: 400;
+}

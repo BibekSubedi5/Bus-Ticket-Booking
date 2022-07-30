@@ -1,0 +1,19 @@
+.BusSeat{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+
+.bookSeat{
+    justify-content: flex-end;
+    /* background-color: red; */
+    display: flex;
+
+}
+.bookSeat>button{
+    height: 35px;
+    width: max-content;
+    background-color: #FDC886;
+    border: none;
+    border-radius: 8px;
+}
